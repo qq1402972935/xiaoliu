@@ -1,0 +1,25 @@
+学了了labuladong大佬的算法
+回溯算法本质上就是决策树的遍历问题
+labuladong大佬的回溯算法解决方法
+
+1.路径：已做出的选择
+2.选择列表：可以做出的选择
+3.结束条件：到达决策树的底层，无法再做选择的条件
+
+代码框架：
+result=
+
+int main(){
+  backtrack(路径，选择列表);
+  return result;
+}
+
+void backtrack(路径，选择列表){
+  if 满足结束条件
+  result.push(路径）
+    return ;
+  for 选择：选择列表
+  做选择
+  backtrack(路径，选择列表)
+  撤销选择；
+}
