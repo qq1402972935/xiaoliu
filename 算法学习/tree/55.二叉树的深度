@@ -3,7 +3,7 @@
 
 求二叉树的最大深度
 
-/**
+(```)
  * Definition for a binary tree node.
  * struct TreeNode {
  *     int val;
@@ -22,3 +22,4 @@ int rightDepth;
         return max(maxDepth(root->left),maxDepth(root->right))+1;//每遍历一次深度加一，直到遍历到根结点，所求最大deep即为二叉树深度
     }
 };
+(```)
